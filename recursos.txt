@@ -1,0 +1,25 @@
+## NAVBAR:
+- Catálogo
+- Ofertas
+- Contacto
+
+## HERO:
+- Lo último en tecnología lo encuentras aquí
+- Somos la tienda tecnológica de la Sexta Región. Desde Rancagua para todo O'Higgins. Ofrecemos el mejor hardware, accesorios y conectividad para potenciar tu setup o lugar de trabajo. Compra rápido, seguro y con garantía local.
+- Explorar Catálogo
+- Ver Ofertas
+
+## FORMULARIO:
+- ¿Buscas algún componente en específico?
+- Escríbenos y nuestro equipo técnico te asesorará con las mejores opciones disponibles en nuestra sucursal.
+- No compartiremos tus datos con nadie.
+- Escribe aquí tu requerimiento:
+- Enviar
+- ¡Mensaje enviado con éxito! Un asesor técnico de Casa Tech se contactará contigo pronto.
+
+## FOOTER:
+- Potenciando el desarrollo tecnológico de la Sexta Región.
+- Catálogo
+- Ofertas
+- Contacto
+- &copy; 2026 Casa Tech. Todos los derechos reservados.
