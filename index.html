@@ -1,24 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Casa Tech - Tecnología y Conectividad</title>
-</head>
-<body>
-    <!-- NAVBAR -->
+<!--    METADATOS -->
+    <head>
+        <!-- configuración básica -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ícono pestaña navegador -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- estilos de bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- estilos personalizados -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Casa Tech - Tecnología y Conectividad</title>
+    </head>
 
-    <!-- HERO -->
+    <!-- CONTENIDO EFECTIVO: LO VISIBLE -->
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
 
-    <!-- FORMULARIO -->
+            <div class="container-fluid">
 
-    <!-- FOOTER -->
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/casa-tech-logo-sin-fondo.png" alt="Bootstrap" width="30" height="24">
+                </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-    <script src="assets/js/index.js"></script>
-</body>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catálogo</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ofertas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO -->
+        <div class="container col-xxl-8 px-4 py-5">
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+                <div class="col-md-6"> 
+                    <img src="assets/img/hero-tienda.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+                </div>
+                
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Lo último en tecnología lo encuentras aquí</h1>
+                    <p class="lead">
+                        Somos la tienda tecnológica de la Sexta Región. Desde Rancagua para todo O'Higgins. Ofrecemos el mejor hardware, accesorios y conectividad para potenciar tu setup o lugar de trabajo. Compra rápido, seguro y con garantía local.
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Explorar Catálogo</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Ver Ofertas</button> 
+                    </div>
+            </div>
+
+            </div>
+        </div>
+
+
+        <!-- FORMULARIO -->
+        <form class="container" id="formularioContacto">
+            <h2 class="text-center">¿Buscas algún componente en específico?</h2>
+            <p class="text-center">Escríbenos y nuestro equipo técnico te asesorará con las mejores opciones disponibles en nuestra sucursal.</p>
+            
+            <div id="alertaExito" class="alert alert-success d-none" role="alert">
+                ¡Mensaje enviado con éxito! Un asesor técnico de Casa Tech se contactará contigo pronto.
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No compartiremos tus datos con nadie.</div>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Escríbenos lo que necesitas</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <!-- FOOTER -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="container">
+                <h5 class="">Casa Tech</h5>
+                <p>Potenciando el desarrollo tecnológico de la Sexta Región.</p>
+            </div>
+
+            <div class="mb-4">
+                <a class="text-white text-decoration-none mx-3" href="">Catálogo</a>
+                <a class="text-white text-decoration-none mx-3" href="">Ofertas</a>
+                <a class="text-white text-decoration-none mx-3" href="">Contacto</a>
+            </div>
+
+            <div class="text-white-50 small">
+                &copy; 2026 Casa Tech. Todos los derechos reservados.
+            </div>
+
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
 </html>

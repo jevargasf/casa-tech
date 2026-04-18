@@ -1,0 +1,41 @@
+/* FUENTE LEGIBLE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESETEAR EL BODY */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* COLORES DE MARCA */
+:root{
+    --bs-primary: #1E5631;
+    --bs-secondary: #526B56;
+    
+    --bs-success: #2E8B57;
+    --bs-danger: #D9534F;
+    --bs-warning: #F0AD4E;
+    --bs-info: #5BC0DE;
+    --bs-light: #F8F9FA;
+    --bs-dark: #212529;
+
+    --bs-primary-hover: #153C22; 
+    --bs-success-hover: #246D44;
+    --bs-danger-hover: #C9302C;
+}
+
+.btn-primary{
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-secondary);
+}
+

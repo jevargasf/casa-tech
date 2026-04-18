@@ -12,6 +12,7 @@
 ## FORMULARIO:
 - ¿Buscas algún componente en específico?
 - Escríbenos y nuestro equipo técnico te asesorará con las mejores opciones disponibles en nuestra sucursal.
+
 - No compartiremos tus datos con nadie.
 - Escribe aquí tu requerimiento:
 - Enviar
